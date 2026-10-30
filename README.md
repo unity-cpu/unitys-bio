@@ -1,35 +1,26 @@
-# unity profile (halo.rip clone)
+# unity — perfect copy of halo.rip/unity
 
-Static recreation of [halo.rip/unity](https://halo.rip/unity) ready for Vercel.
+Static recreation of https://halo.rip/unity ready for Vercel.
 
-## Deploy to Vercel
+## Includes
+- Real background video
+- Avatar + animated decoration
+- Typewriter username + bio
+- Discord + Medium widgets
+- Real "Blue Bands" by Weiland audio
+- Karaoke-style scrolling lyrics
+- Glassmorphism card
+- Mute / like / share controls
+- Click-to-enter splash (required for autoplay)
 
-### Option 1 – CLI
+## Deploy
 ```bash
-cd unity-profile
 npx vercel
 ```
+Or drag this folder to vercel.com/new
 
-### Option 2 – Drag & drop
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Drag the entire `unity-profile` folder
-3. Deploy
-
-### Option 3 – Git
-```bash
-git init
-git add .
-git commit -m "unity profile"
-# push to GitHub then import on Vercel
-```
-
-## Local preview
-Just open `index.html` in a browser, or:
+## Local
+Just open index.html or:
 ```bash
 npx serve .
 ```
-
-## Customize
-- Replace `avatar.png`, `decoration.png`, `cover.jpg`, `bg.mp4`
-- Edit bio / username in `index.html`
-- Add a real audio file and set `<audio src="track.mp3">` if you want actual music
